@@ -1,25 +1,22 @@
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+import ProductPage from './pages/ProductPage';
+
 function App() {
-	return (<p>
-	Collections
-	Men
-	Women
-	About
-	Contact
-
-	Sneaker Company
-
-	Fall Limited Edition Sneakers
-
-	These low-profile sneakers are your perfect casual wear companion. Featuring a
-	durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-	$125.00
-	50%
-	$250.00
-
-	0
-	Add to cart
-	</p>);
+	return (
+		<>
+			<ResetStyles />
+			<ProductPage />
+		</>
+	);
 }
 
 export default App;
+
+const ResetStyles = createGlobalStyle`
+	* {
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+	}
+`;
