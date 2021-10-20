@@ -5,7 +5,7 @@ import ProductPage from './pages/ProductPage';
 function App() {
 	return (
 		<>
-			<ResetStyles />
+			<GlobalStyles />
 			<ProductPage />
 		</>
 	);
@@ -13,10 +13,14 @@ function App() {
 
 export default App;
 
-const ResetStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 	* {
 		box-sizing: border-box;
 		padding: 0;
 		margin: 0;
+	}
+
+	:root {
+		font-family: 'Kumbh Sans', sans-serif;
 	}
 `;
