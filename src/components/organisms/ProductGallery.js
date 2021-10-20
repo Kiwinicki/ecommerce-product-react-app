@@ -17,8 +17,6 @@ import image4 from 'images/image-product-4.jpg';
 const images = [image1, image2, image3, image4];
 const imagesThumbnails = [imageThumbnail1, imageThumbnail2, imageThumbnail3, imageThumbnail4];
 
-const screenWidth = document.body.clientWidth;
-
 const ProductGallery = () => {
 	const [currImgIndex, setCurrImgIndex] = useState(0);
 
@@ -29,6 +27,8 @@ const ProductGallery = () => {
 	const changeToPrevImage = () => {
 		setCurrImgIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
 	};
+
+	const screenWidth = document.body.clientWidth;
 
 	return (
 		<GalleryContainer>
