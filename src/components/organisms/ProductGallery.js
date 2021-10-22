@@ -48,7 +48,7 @@ const ThumbnailsImagesList = () => {
 	return (
 		<ThumbnailsImagesContainer>
 			{imagesThumbnails.map((img) => (
-				<ThumbnailImage src={img} alt="product thumbnail image" />
+				<ThumbnailImage src={img} alt="product thumbnail" />
 			))}
 		</ThumbnailsImagesContainer>
 	);

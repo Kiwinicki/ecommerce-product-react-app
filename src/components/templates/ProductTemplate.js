@@ -1,15 +1,16 @@
 import MainContainer from 'components/atoms/MainContainer';
-import PageHeader from 'components/organisms/PageHeader';
+import SiteHeader from 'components/organisms/SiteHeader';
 import ProductGallery from 'components/organisms/ProductGallery';
 import ProductInfo from 'components/organisms/ProductInfo';
+import BuyProduct from 'components/organisms/BuyProduct';
 
 const ProductTemplate = () => (
 	<>
-		<PageHeader />
+		<SiteHeader />
 		<MainContainer>
 			<ProductGallery />
 			<ProductInfo />
-			{/* <BuyProduct /> */}
+			<BuyProduct />
 		</MainContainer>
 	</>
 );

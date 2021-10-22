@@ -6,7 +6,7 @@ import { Button, UserAccountButton } from 'components/atoms/Button';
 import iconCart from 'images/icon-cart.svg';
 import userAvatar from 'images/image-avatar.png';
 
-const PageHeader = () => {
+const SiteHeader = () => {
 	return (
 		<Header>
 			<SiteMenu />
@@ -21,7 +21,7 @@ const PageHeader = () => {
 	);
 };
 
-export default PageHeader;
+export default SiteHeader;
 
 const Header = styled.header`
 	display: grid;
