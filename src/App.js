@@ -19,8 +19,13 @@ const GlobalStyles = createGlobalStyle`
 		padding: 0;
 		margin: 0;
 	}
-
-	:root {
+	
+	#root {
+		overflow-y: hidden;
+    	position: relative;
 		font-family: 'Kumbh Sans', sans-serif;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
 	}
 `;
