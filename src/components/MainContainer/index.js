@@ -6,8 +6,8 @@ const MainContainer = styled.main`
 	flex-direction: column;
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
 		flex-direction: row;
-		max-width: 900px;
-		gap: 70px;
+		max-width: 920px;
+		gap: 90px;
 		margin: auto;
 		& div {
 			flex: 0 1 50%;

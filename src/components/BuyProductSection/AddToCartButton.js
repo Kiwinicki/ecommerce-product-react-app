@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PrimaryButton } from 'components/sharedStyled/Buttons';
+import { PrimaryButton } from 'components/shared/Buttons';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 import iconCart from 'images/icon-cart.svg';
 
@@ -19,5 +19,8 @@ const ExtPrimaryButton = styled(PrimaryButton)`
 		margin-right: 14px;
 		filter: brightness(0) invert(100%);
 		height: 16px;
+	}
+	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
+		margin-bottom: 0;
 	}
 `;

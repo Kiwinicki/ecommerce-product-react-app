@@ -7,6 +7,7 @@ import ChangeAmountRow from './ChangeAmountRow';
 import ChangeAmountButton from './ChangeAmountButton';
 import CurrentAmount from './CurrentAmount';
 import AddToCartButton from './AddToCartButton';
+import FlexBuyContainer from './FlexBuyContainer';
 import { useState } from 'react/cjs/react.development';
 
 const BuyProductSection = ({ products }) => {
@@ -20,14 +21,15 @@ const BuyProductSection = ({ products }) => {
 				<Discount>50%</Discount>
 				<OldPrice>$250.00</OldPrice>
 			</PriceInfoRow>
+			<FlexBuyContainer>
+				<ChangeAmountRow>
+					<ChangeAmountButton type="minus" handleClick={() => setTempAmount((prev) => (prev <= 0 ? 0 : --prev))} />
+					<CurrentAmount>{tempAmount}</CurrentAmount>
+					<ChangeAmountButton type="plus" handleClick={() => setTempAmount((prev) => ++prev)} />
+				</ChangeAmountRow>
 
-			<ChangeAmountRow>
-				<ChangeAmountButton type="minus" handleClick={() => setTempAmount((prev) => (prev <= 0 ? 0 : --prev))} />
-				<CurrentAmount>{tempAmount}</CurrentAmount>
-				<ChangeAmountButton type="plus" handleClick={() => setTempAmount((prev) => ++prev)} />
-			</ChangeAmountRow>
-
-			<AddToCartButton handleClick={() => setProduct((prev) => ({ ...prev, amount: tempAmount }))} />
+				<AddToCartButton handleClick={() => setProduct((prev) => ({ ...prev, amount: tempAmount }))} />
+			</FlexBuyContainer>
 		</Container>
 	);
 };

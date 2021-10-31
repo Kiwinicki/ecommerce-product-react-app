@@ -1,6 +1,6 @@
 import Container from './Container';
 import SideMenuBg from './SideMenuBg';
-import CloseButton from './CloseButton';
+import { CloseButton } from '../shared/CloseButton';
 import MenuList from './MenuList';
 
 const SideMenu = ({ expand }) => {

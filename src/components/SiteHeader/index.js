@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import MenuButton from './MenuButton';
 import UserAccountButton from './UserAccountButton';
 import SiteLogo from './SiteLogo';
@@ -7,22 +6,19 @@ import MenuList from './MenuList';
 import CartButton from './CartButton';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 
-const SiteHeader = ({ expand, toggleCartModal }) => {
-	const [isExpanded, toggleExpand] = expand;
-	const [windowWidth, setDocWidth] = useState(window.innerWidth);
+import CartModal from 'components/CartModal/index';
 
-	useEffect(() => {
-		window.addEventListener('resize', () => {
-			setDocWidth(window.innerWidth);
-		});
-	});
+const SiteHeader = ({ toggleExpand, cartModal, products, windowWidth }) => {
+	const [isModalOpened, toggleModal] = cartModal;
+	const [product, setProduct] = products;
 
 	return (
 		<Container>
 			{windowWidth < BREAKPOINTS.desktop && <MenuButton handleClick={toggleExpand} />}
 			<SiteLogo />
 			{windowWidth >= BREAKPOINTS.desktop && <MenuList />}
-			<CartButton handleClick={() => toggleCartModal()} />
+			<CartButton handleClick={() => toggleModal()} amount={product.amount} />
+			<CartModal isOpened={isModalOpened} products={[product, setProduct]} />
 			<UserAccountButton />
 		</Container>
 	);

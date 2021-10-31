@@ -1,11 +1,14 @@
 import styled from 'styled-components';
-import { COLORS } from 'utils/STYLE_VARIABLES';
+import { BREAKPOINTS, COLORS } from 'utils/STYLE_VARIABLES';
 
 const OldPrice = styled.p`
 	text-decoration: line-through;
 	font-weight: 700;
 	color: ${COLORS.grayishBlue};
-	margin-left: auto;
+	margin: auto 0 auto auto;
+	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
+		margin: auto 0 auto;
+	}
 `;
 
 export default OldPrice;

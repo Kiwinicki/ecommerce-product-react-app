@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Link from 'components/sharedStyled/Link';
+import Link from 'components/shared/Link';
 import { COLORS } from 'utils/STYLE_VARIABLES';
 
 const MenuList = () => (

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 
-const Content = styled.div`
-	padding: 24px 24px 30px;
+const FlexBuyContainer = styled.div`
 	display: flex;
-	flex-flow: column wrap;
-	flex-grow: 1;
+	flex-direction: column;
+	gap: 20px;
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
-		padding: 15px 15px 20px;
+		flex-direction: row;
+		max-height: 50px;
 	}
 `;
 
-export default Content;
+export default FlexBuyContainer;

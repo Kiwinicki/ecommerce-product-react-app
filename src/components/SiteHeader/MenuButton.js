@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Button } from 'components/sharedStyled/Buttons';
+import { Button } from 'components/shared/Buttons';
 import iconMenu from 'images/icon-menu.svg';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 

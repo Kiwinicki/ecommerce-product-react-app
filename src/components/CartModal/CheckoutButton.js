@@ -1,4 +1,4 @@
-import { PrimaryButton } from 'components/sharedStyled/Buttons';
+import { PrimaryButton } from 'components/shared/Buttons';
 
 const CheckoutButton = () => <PrimaryButton>Checkout</PrimaryButton>;
 

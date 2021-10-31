@@ -5,14 +5,7 @@ const Button = styled.button`
 	background-color: transparent;
 	border: none;
 	position: relative;
-	&::after {
-		content: '';
-		position: absolute;
-		top: -5px;
-		bottom: -5px;
-		left: -5px;
-		right: -5px;
-	}
+	cursor: pointer;
 `;
 
 const PrimaryButton = styled(Button)`
@@ -24,7 +17,7 @@ const PrimaryButton = styled(Button)`
 	background-color: ${COLORS.orange};
 	color: ${COLORS.white};
 	font-weight: 700;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-size: 16px;
 	&:active {
 		background-color: hsl(26, 100%, 63%);

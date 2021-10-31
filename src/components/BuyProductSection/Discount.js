@@ -10,6 +10,7 @@ const Discount = styled.div`
 	display: flex;
 	align-items: center;
 	max-width: min-content;
+	margin: auto 0;
 `;
 
 export default Discount;
