@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { Button } from 'components/shared/Buttons';
 import iconMinus from 'images/icon-minus.svg';
 import iconPlus from 'images/icon-plus.svg';

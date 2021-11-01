@@ -17,7 +17,7 @@ const MenuList = () => (
 
 const ListItem = ({ children }) => (
 	<li>
-		<Link href="#">{children}</Link>
+		<Link href="#0">{children}</Link>
 	</li>
 );
 

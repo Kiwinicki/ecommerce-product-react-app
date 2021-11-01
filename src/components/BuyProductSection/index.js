@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from './Container';
 import PriceInfoRow from './PriceInfoRow';
 import Price from './Price';
@@ -9,7 +9,6 @@ import ChangeAmountButton from './ChangeAmountButton';
 import CurrentAmount from './CurrentAmount';
 import AddToCartButton from './AddToCartButton';
 import FlexBuyContainer from './FlexBuyContainer';
-import { useState } from 'react/cjs/react.development';
 
 const BuyProductSection = ({ products }) => {
 	const [product, setProduct] = products;

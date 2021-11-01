@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { PrimaryButton } from 'components/shared/Buttons';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 import iconCart from 'images/icon-cart.svg';
