@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
+import styled from 'styled-components/macro';
 import Link from 'components/shared/Link';
 import ListItem from './ListItem';
 import { COLORS } from 'utils/STYLE_VARIABLES';

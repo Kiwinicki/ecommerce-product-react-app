@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
+import styled from 'styled-components/macro';
 import { Button } from 'components/shared/Buttons';
 import userImage from 'images/image-avatar.png';
 import { BREAKPOINTS, COLORS } from 'utils/STYLE_VARIABLES';

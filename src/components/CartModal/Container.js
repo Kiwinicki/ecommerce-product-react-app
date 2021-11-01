@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { BREAKPOINTS, COLORS } from 'utils/STYLE_VARIABLES';
 

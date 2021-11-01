@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from './Container';
 import PriceInfoRow from './PriceInfoRow';
 import Price from './Price';

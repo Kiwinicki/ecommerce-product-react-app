@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+import React, { useReducer } from 'react';
 
 import image1 from 'images/image-product-1.jpg';
 import image2 from 'images/image-product-2.jpg';

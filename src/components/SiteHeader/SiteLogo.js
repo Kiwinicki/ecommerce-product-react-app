@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
+import styled from 'styled-components/macro';
 import logoIcon from 'images/logo.svg';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 

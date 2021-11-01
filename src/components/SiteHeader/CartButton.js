@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
+import styled from 'styled-components/macro';
 import { Button } from 'components/shared/Buttons';
 import iconCart from 'images/icon-cart.svg';
 import { COLORS } from 'utils/STYLE_VARIABLES';

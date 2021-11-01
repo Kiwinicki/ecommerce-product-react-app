@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { Button } from 'components/shared/Buttons';
 import iconDelete from 'images/icon-delete.svg';

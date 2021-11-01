@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import React from 'react';
+import styled from 'styled-components/macro';
 import { Button } from 'components/shared/Buttons';
 import iconMenu from 'images/icon-menu.svg';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';

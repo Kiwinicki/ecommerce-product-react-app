@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components/macro';
 import { NavButton as GalleryNavButton } from 'components/shared/GalleryNavButton';
 import ProductGalleryContainer from 'components/ProductGallery/Container';

@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from './Container';
 import FullResImage from '../shared/FullResImage';
 import { CloseButtonOrange } from '../shared/CloseButton';

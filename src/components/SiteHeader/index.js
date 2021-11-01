@@ -1,3 +1,4 @@
+import React from 'react';
 import MenuButton from './MenuButton';
 import UserAccountButton from './UserAccountButton';
 import SiteLogo from './SiteLogo';

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import ThumbnailsImagesList from 'components/shared/ThumbnailsImagesList';
+import React from 'react';
+import styled from 'styled-components/macro';
 
 const Container = styled.div`
 	${({ isOpened }) => (isOpened ? `display: flex;` : `display: none;`)}
@@ -21,9 +21,6 @@ const Container = styled.div`
 		left: 50%;
 		transform: translate(-50%, -50%);
 		background-color: rgba(0, 0, 0, 0.75);
-	}
-	${ThumbnailsImagesList} {
-		z-index: 10000;
 	}
 `;
 

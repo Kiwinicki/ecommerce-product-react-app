@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components/macro';
 import LightboxContainer from 'components/Lightbox/Container';
 import { COLORS } from 'utils/STYLE_VARIABLES';
