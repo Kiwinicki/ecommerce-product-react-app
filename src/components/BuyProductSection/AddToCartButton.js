@@ -23,5 +23,6 @@ const ExtPrimaryButton = styled(PrimaryButton)`
 	}
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
 		margin-bottom: 0;
+		padding: 30px;
 	}
 `;

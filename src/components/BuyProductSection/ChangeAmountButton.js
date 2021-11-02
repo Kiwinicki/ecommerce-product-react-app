@@ -21,6 +21,9 @@ const ExtButton = styled(Button)`
 		filter: brightness(1.2);
 	}
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
-		height: auto;
+		height: 100%;
+		& > img {
+			transform: translateY(-50%);
+		}
 	}
 `;

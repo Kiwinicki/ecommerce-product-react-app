@@ -8,7 +8,7 @@ const Content = styled.div`
 	flex-flow: column wrap;
 	flex-grow: 1;
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
-		padding: 15px 15px 20px;
+		padding: 26px;
 	}
 `;
 

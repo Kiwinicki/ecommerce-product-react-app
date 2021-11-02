@@ -8,7 +8,10 @@ const ProductTitle = styled.h2`
 	font-weight: 700;
 	margin-bottom: 12px;
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
-		font-size: 36px;
+		font-size: 42px;
+		letter-spacing: 1.5px;
+		word-spacing: 0;
+		margin-bottom: 32px;
 	}
 `;
 

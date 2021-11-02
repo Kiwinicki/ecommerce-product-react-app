@@ -6,7 +6,6 @@ import Container from './Container';
 import MenuList from './MenuList';
 import CartButton from './CartButton';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
-
 import CartModal from 'components/CartModal/index';
 
 const SiteHeader = ({ toggleExpand, cartModal, products, windowWidth }) => {

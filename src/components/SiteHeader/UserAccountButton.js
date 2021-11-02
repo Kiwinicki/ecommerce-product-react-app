@@ -22,8 +22,8 @@ const ExtButton = styled(Button)`
 		border: 2px solid ${COLORS.orange};
 	}
 	@media only screen and (min-width: ${BREAKPOINTS.tablet}px) {
-		width: 44px;
-		height: 44px;
+		width: 52px;
+		height: 52px;
 	}
 `;
 
@@ -31,7 +31,7 @@ const ProfileImage = styled.img`
 	width: 28px;
 	height: 28px;
 	@media only screen and (min-width: ${BREAKPOINTS.tablet}px) {
-		width: 40px;
-		height: 40px;
+		width: 48px;
+		height: 48px;
 	}
 `;

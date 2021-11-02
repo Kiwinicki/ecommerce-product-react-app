@@ -35,7 +35,7 @@ const ProductPage = () => {
 		name: 'Fall Limited Edition Sneakers',
 		description: "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they 'll withdtand everything the weather can offer.",
 		cost: 125,
-		amount: 2,
+		amount: 0,
 	});
 
 	return (

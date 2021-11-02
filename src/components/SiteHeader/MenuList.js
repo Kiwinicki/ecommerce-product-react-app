@@ -27,6 +27,7 @@ export default MenuList;
 const List = styled.ul`
 	display: flex;
 	list-style: none;
-	gap: 22px;
+	gap: 30px;
 	color: ${COLORS.darkGrayishBlue};
+	height: 12.5vh;
 `;

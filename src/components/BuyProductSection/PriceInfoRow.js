@@ -10,6 +10,7 @@ const PriceInfoRow = styled.div`
 	grid-template-columns: min-content min-content 1fr;
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
 		grid-template-columns: min-content min-content;
+		margin-bottom: 44px;
 	}
 `;
 
