@@ -20,9 +20,12 @@ const Container = styled.div`
 	@media only screen and (min-width: ${BREAKPOINTS.desktop}px) {
 		left: initial;
 		right: 6.25vw;
-		transform: translate(calc(50% - 20px), calc(100% - 18px));
+		transform: translate(calc(25%), calc(100% - 18px));
 		width: 370px;
 		min-height: 260px;
+	}
+	@media only screen and (min-width: ${BREAKPOINTS.desktopMid}px) {
+		transform: translate(calc(50%), calc(100% - 18px));
 	}
 `;
 

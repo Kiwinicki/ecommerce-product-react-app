@@ -15,4 +15,5 @@ export const BREAKPOINTS = {
 	mobile: 1,
 	tablet: 768,
 	desktop: 1024,
+	desktopMid: 1200,
 };
