@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Screenshot
 
-![moblie solution screenshot](./screenshot.jpg)
-![desktop solution screenshot](./screenshot.jpg)
+![moblie solution screenshot](./solution_screenshots/mobile.png)
+![desktop solution screenshot](./solution_screenshots/desktop.png)
 
 ### Links
 
