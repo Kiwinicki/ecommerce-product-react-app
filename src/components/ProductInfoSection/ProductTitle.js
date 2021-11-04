@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import { BREAKPOINTS } from 'utils/STYLE_VARIABLES';
 
-const ProductTitle = styled.h2`
+const ProductTitle = styled.h1`
 	font-size: 27px;
 	word-spacing: 4px;
 	font-weight: 700;
