@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [LINK](https://github.com/Kiwinicki/ecommerce-product-react-app)
+- Live Site URL: [LINK](https://kiwinicki.github.io/ecommerce-product-react-app/)
 
 ## My process
 
